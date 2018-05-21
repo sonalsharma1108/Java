@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="shortcut icon" href="https://raw.githubusercontent.com/Polymer/shop/master/images/shop-icon-32.png" type="image/x-icon" />
+<title>SHOP</title></head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.responsive{
+    width: 100%;
+    height: auto;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008CBA;
+}
+ul{
+    margin-bottom: 1em;
+}
+*{
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+</style>
+<body>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+<div class="header">
+        <i class="material-icons" role="button" style="float: right; cursor: pointer;" onclick="window.open('file:///C:/Users/1/Desktop/PolymerShop/cart.html')">add_shopping_cart</i>
+<h2 style="display: flex; justify-content: center;">SHOP</h2>
+</div>
+<ul style="display: flex; justify-content: center;">
+  <li><a class="active" href="file:///C:/Users/1/Desktop/PolymerShop/MensWear.html">Men Outerwear</a></li>
+  <li><a href="https://shop.polymer-project.org/list/ladies_outerwear">Women Outerwear</a></li>
+  <li><a href="https://shop.polymer-project.org/list/mens_tshirts">T-shirts for Men</a></li>
+  <li><a href="https://shop.polymer-project.org/list/ladies_tshirts">T-shirts for Women</a></li>
+</ul>
+<div>
+        <img src="C:\Users\1\Desktop\PolymerShop\images\mens_outerwear.jpg" alt="Mens_outerwear" class="responsive" width="1400" height="320">
+</div>
+
+<h2 style="display: flex; justify-content: center;">Mens Outerwear</h2>
+<div>
+        <a href="#"></a>
+        <center><input type="button" class="button button1" value="Mens_outerwear" onclick="window.open('https://shop.polymer-project.org/list/mens_outerwear')" style="display: flex;"></input></center>
+    </div>
+
+<div>
+        <img src="C:\Users\1\Desktop\PolymerShop\images\ladies_outerwear.jpg" alt="ladies_outerwear" class="responsive" width="1400" height="320">
+</div>
+
+<h2 style="display: flex; justify-content: center;">Women Outerwear</h2>
+<div>
+        <a href="#"></a>
+        <center><input type="button" class="button button1" value="Women_outerwear" onclick="window.open('https://shop.polymer-project.org/list/ladies_outerwear')" style="display: flex;"></input></center>
+    </div>
+<div class="row">
+    <div class="column">
+        <img src="C:\Users\1\Desktop\PolymerShop\images\mens_tshirts.jpg" alt="mens_tshirts" class="responsive" width="1400" height="320">
+        <h2 style="display: flex; justify-content: center;">Men T-shirt</h2>
+        <center><input type="button" class="button button1" value="Men_T-shirt" onclick="window.open('https://shop.polymer-project.org/list/mens_tshirts')" style="display: flex;"></input></center>
+    </div>
+    <div class="column">
+        <img src="C:\Users\1\Desktop\PolymerShop\images\ladies_tshirts.jpg" alt="ladies_tshirts" class="responsive" width="1400" height="320">
+        <h2 style="display: flex; justify-content: center;">Women T-shirt</h2>
+        <center><input type="button" class="button button1" value="Women_T-shirt" onclick="window.open('https://shop.polymer-project.org/list/ladies_tshirts')" style="display: flex;"></input></center>
+    </div>
+</div>
+<div>
+    <a href="#"></a>
+    <center><input type="button" class="button button1" value="Demo only" style="display: flex; justify-content: center; background-color: #111; -webkit-text-fill-color: white"></input></center>
+</div>
+</body>
+</html>
